@@ -1,7 +1,9 @@
 <?php
+    // Condicional si el metodo POST se ejecuta
     if($_POST){
         $txtNombre=$_POST['txtNombre'];
         $txtApellido=$_POST['txtApellido'];
+        // Concatenar variables y mostrarlas
         echo "Hola, ".$txtNombre." ".$txtApellido;
     }
 ?>
@@ -16,7 +18,7 @@
 <body>
     <!- Formulario ->
     <form action="ejercicio4.php" method="post">
-        <!- Nombre de input para almacenar datos en variable ($nombre) ->
+        <!- Nombre y Apellido de los input para almacenar datos en variable ($txtNombre) (&txtApellido) ->
         <input type="text" placeholder="Nombre" name="txtNombre" id="">
         <input type="text" placeholder="Apellido" name="txtApellido" id="">
         <input type="submit" value="Enviar">

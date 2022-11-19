@@ -18,7 +18,7 @@
 <body>
     <!- Formulario ->
     <form action="ejercicio3.php" method="get">
-        <!- Nombre de input para almacenar datos en variable ($nombre) ->
+        <!- Nombre de input para almacenar datos en variable ($txtNombre) ->
         <input type="text" name="txtNombre" id="">
         <input type="submit" value="Enviar">
     </form>
